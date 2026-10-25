@@ -1,6 +1,6 @@
 # Game Theory Foundations — Master Theory Compendium
 
-Cross-paper synthesis of the mathematical tools used in the game-paper library (100 per-paper archives, `papers/PXXX.md`). Every claim carries its archive ID and, where the archive records it, the original page/equation. `[proven]`/`[asserted]` flags propagate the archives' own proof-gap notes (archive Section 7). Symbols are paper-local; see "Symbol conflicts observed" at the end.
+Cross-paper synthesis of the mathematical tools used in the lsh-game-paper library (100 per-paper archives, `papers/PXXX.md`). Every claim carries its archive ID and, where the archive records it, the original page/equation. `[proven]`/`[asserted]` flags propagate the archives' own proof-gap notes (archive Section 7). Symbols are paper-local; see "Symbol conflicts observed" at the end.
 
 ---
 

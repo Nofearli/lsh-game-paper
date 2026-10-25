@@ -1,6 +1,6 @@
-# Install the game-paper skill into a skills directory.
+# Install the lsh-game-paper skill into a skills directory.
 #
-#   powershell -ExecutionPolicy Bypass -File .\install.ps1                # -> ~\.agents\skills\game-paper
+#   powershell -ExecutionPolicy Bypass -File .\install.ps1                # -> ~\.agents\skills\lsh-game-paper
 #   powershell -ExecutionPolicy Bypass -File .\install.ps1 C:\skills      # custom root
 #   powershell -ExecutionPolicy Bypass -File .\install.ps1 -Force         # overwrite without asking
 param(
@@ -10,7 +10,7 @@ param(
 
 $ErrorActionPreference = "Stop"
 $Src = $PSScriptRoot
-$Dest = Join-Path $Root "game-paper"
+$Dest = Join-Path $Root "lsh-game-paper"
 
 New-Item -ItemType Directory -Force -Path $Root | Out-Null
 

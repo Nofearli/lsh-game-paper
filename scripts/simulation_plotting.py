@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""simulation_plotting.py -- IEEE-style plotting helpers for game-paper figures.
+"""simulation_plotting.py -- IEEE-style plotting helpers for lsh-game-paper figures.
 
 Import as a module to get rcParams tuned for IEEE double-column papers, or run
 directly to regenerate the style demo figure into assets/.

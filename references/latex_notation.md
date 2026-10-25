@@ -1,4 +1,4 @@
-# LaTeX Notation Contract — game-paper
+# LaTeX Notation Contract — lsh-game-paper
 
 Default writing style of the user (mandatory unless the user says otherwise)
 plus the cross-paper symbol mapping. The mapping table is filled/updated from
@@ -20,7 +20,7 @@ reusing a symbol that two source papers define differently.
 
 Automated check: `python scripts/notation_checker.py paper.tex`.
 
-## 2. Standard game-paper symbol set (use unless a source paper's result is
+## 2. Standard lsh-game-paper symbol set (use unless a source paper's result is
 quoted verbatim — then keep the source symbols and say so)
 
 | Symbol | Meaning |

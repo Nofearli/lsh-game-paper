@@ -1,11 +1,11 @@
-# Install — game-paper skill
+# Install — lsh-game-paper skill
 
 The repo is a self-contained skill folder. Cloning it into a skills directory is the whole install.
 
 ## ZCode
 
 ```bash
-git clone https://github.com/Nofearli/game-paper.git ~/.agents/skills/game-paper
+git clone https://github.com/Nofearli/lsh-game-paper.git ~/.agents/skills/lsh-game-paper
 ```
 
 Restart ZCode (or start a new session); the skill triggers on differential-game / pursuit-evasion /
@@ -18,7 +18,7 @@ bash ./install.sh                                        # macOS / Linux
 powershell -ExecutionPolicy Bypass -File .\install.ps1   # Windows
 ```
 
-Default target is `~/.agents/skills/game-paper`; pass a custom skills root as the first argument,
+Default target is `~/.agents/skills/lsh-game-paper`; pass a custom skills root as the first argument,
 or `--force` to overwrite an existing installation.
 
 ## Verify

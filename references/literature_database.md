@@ -1,4 +1,4 @@
-# Literature Database — research-status map (game-paper library, 102 papers)
+# Literature Database — research-status map (lsh-game-paper library, 102 papers)
 
 Narrative complement to `references/literature_index.md` (topic × paper lookup) and
 `papers/manifest.json` (bibliographic data). Read this file first to understand what the

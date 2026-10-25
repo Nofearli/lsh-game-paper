@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-# Install the game-paper skill into a skills directory.
+# Install the lsh-game-paper skill into a skills directory.
 #
-#   bash ./install.sh                 # -> ~/.agents/skills/game-paper
+#   bash ./install.sh                 # -> ~/.agents/skills/lsh-game-paper
 #   bash ./install.sh /path/to/skills # custom root
 #   bash ./install.sh --force         # overwrite without asking
 set -euo pipefail
@@ -14,7 +14,7 @@ fi
 
 SRC="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 ROOT="${1:-$HOME/.agents/skills}"
-DEST="$ROOT/game-paper"
+DEST="$ROOT/lsh-game-paper"
 
 mkdir -p "$ROOT"
 

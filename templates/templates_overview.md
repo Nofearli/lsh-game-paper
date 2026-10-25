@@ -1,4 +1,4 @@
-# IEEE Transactions Paper Templates -- game-paper skill
+# IEEE Transactions Paper Templates -- lsh-game-paper skill
 
 All templates below are skeletons to be instantiated with REAL content from the
 knowledge base (`references/`, `papers/`). Never leave a slot unfilled in a

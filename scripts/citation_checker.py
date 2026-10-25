@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""citation_checker.py -- Anti-fabrication citation checker for the game-paper skill.
+"""citation_checker.py -- Anti-fabrication citation checker for the lsh-game-paper skill.
 
 Verifies that citations in a draft (LaTeX \\cite{...} / \\bibitem, or [PXXX]
 markers, or a .bib file) resolve to REAL entries recorded in this skill's
@@ -103,7 +103,7 @@ def check_draft(path, by_id, bibkeys):
             print(f"  [FAIL] {k} looks like a skill ID but is NOT in the library")
             problems += 1
         else:
-            print(f"  [FAIL] {k} has NO record in the game-paper library "
+            print(f"  [FAIL] {k} has NO record in the lsh-game-paper library "
                   f"(possible fabrication -- verify against papers/index.md)")
             problems += 1
     return problems == 0

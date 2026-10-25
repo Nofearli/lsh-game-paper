@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""notation_checker.py -- Symbol & notation consistency checker for game-paper drafts.
+"""notation_checker.py -- Symbol & notation consistency checker for lsh-game-paper drafts.
 
 Enforces the user's writing contract (references/latex_notation.md):
   1. vectors are bold upright:  \mathbf{x}   (not \bm, not \boldsymbol)

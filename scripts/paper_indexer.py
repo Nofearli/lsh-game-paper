@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""paper_indexer.py -- Build and incrementally maintain the game-paper manifest.
+"""paper_indexer.py -- Build and incrementally maintain the lsh-game-paper manifest.
 
 Scans a directory of game-theory PDFs, extracts bibliographic metadata
 (title / authors / year / venue / DOI / page count), assigns quality tiers,
@@ -23,7 +23,7 @@ import sys
 
 import pymupdf
 
-DEFAULT_PDF_DIR = r"D:\System\zhuomian\game-paper"
+DEFAULT_PDF_DIR = r"D:\System\zhuomian\lsh-game-paper"
 SKILL_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 TIER1_JOURNAL = [
@@ -216,7 +216,7 @@ def main():
         mark = "x" if p["archive"] else " "
         rows.append(f"| {p['id']} | {mark} | {p['tier']} | {p['type'][:4]} | {yr} | {ven} | {title} | `{p['file']}` |")
     with open(os.path.join(papers_dir, "index.md"), "w", encoding="utf-8") as f:
-        f.write("# game-paper Literature Index\n\n")
+        f.write("# lsh-game-paper Literature Index\n\n")
         f.write(f"Source: `{args.pdf_dir}` -- {len(papers)} PDFs, {new_ids} newly indexed.\n\n")
         f.write("Archive column: `x` = papers/PXXX.md exists.\n\n")
         f.write("| ID | Arch | Tier | Type | Year | Venue | Title | PDF file |\n")

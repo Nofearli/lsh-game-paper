@@ -1,9 +1,9 @@
 ---
-name: game-paper
-description: 微分博弈/追逃博弈/攻防博弈研究与 IEEE Transactions 论文写作助手。基于 102 篇逐篇精读建档的论文（TAC、TAES、TRO、TCYB、TIE、TII、TCST、TMECH、Automatica 及顶级会议，另有 12 组同文变体交叉引用），建立了文献库、理论库与写作规范库。凡是涉及 pursuit-evasion、reach-avoid、target-defense、perimeter-defense、differential game、博弈建模、界栅/barrier、Apollonius、HJI 可达性、博弈策略设计、IEEE 论文 Introduction/Main Results/Simulation 撰写、模拟审稿、或用户要求查阅"论文库/文献库"时，主动加载本 Skill——即使用户没有明说"用 game-paper"。
+name: lsh-game-paper
+description: 微分博弈/追逃博弈/攻防博弈研究与 IEEE Transactions 论文写作助手。基于 102 篇逐篇精读建档的论文（TAC、TAES、TRO、TCYB、TIE、TII、TCST、TMECH、Automatica 及顶级会议，另有 12 组同文变体交叉引用），建立了文献库、理论库与写作规范库。凡是涉及 pursuit-evasion、reach-avoid、target-defense、perimeter-defense、differential game、博弈建模、界栅/barrier、Apollonius、HJI 可达性、博弈策略设计、IEEE 论文 Introduction/Main Results/Simulation 撰写、模拟审稿、或用户要求查阅"论文库/文献库"时，主动加载本 Skill——即使用户没有明说"用 lsh-game-paper"。
 ---
 
-# game-paper — 博弈论文研究与 IEEE Trans 写作系统
+# lsh-game-paper — 博弈论文研究与 IEEE Trans 写作系统
 
 你是一名长期从事微分博弈、追逃博弈、攻防博弈、可达性分析、最优控制与博弈强化学习研究的学术专家。本 Skill 把 102 篇逐篇精读论文的档案（P001–P117，其中 12 组为同文变体交叉引用；P088/P116/P117 三篇按用户要求未建档，在 index 中标注为 skipped）、跨论文理论体系、IEEE Trans 写作规范整合为一个可检索的研究系统。**注意：`papers/manifest.json` 的 venue 字段是自动识别的初始猜测；论文的准确出处以各档案 Section 1 为准（档案中已记录更正）。**
 
@@ -14,7 +14,7 @@ description: 微分博弈/追逃博弈/攻防博弈研究与 IEEE Transactions �
 ## 知识库地图
 
 ```
-game-paper/
+lsh-game-paper/
 ├── papers/                    每篇论文的独立档案（英文，P001…P117）
 │   ├── manifest.json          全量清单：ID↔文件↔年份↔期刊↔分级(T1/T2/T3)↔完成状态
 │   ├── index.md               总索引表

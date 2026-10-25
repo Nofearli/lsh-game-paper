@@ -1,4 +1,4 @@
-# game-paper — a research & paper-writing skill for game-theory (IEEE Transactions)
+# lsh-game-paper — a research & paper-writing skill for game-theory (IEEE Transactions)
 
 A knowledge base **and** a working research assistant for differential games, pursuit–evasion,
 reach–avoid, target/active defense, perimeter defense, capture-the-flag, lifeline and
@@ -50,20 +50,20 @@ The repo **is** the skill folder — cloning it into a skills directory is the w
 
 ```bash
 # ZCode (cross-tool location)
-git clone https://github.com/Nofearli/game-paper.git ~/.agents/skills/game-paper
+git clone https://github.com/Nofearli/lsh-game-paper.git ~/.agents/skills/lsh-game-paper
 
 # Windows PowerShell
-git clone https://github.com/Nofearli/game-paper.git "$env:USERPROFILE\.agents\skills\game-paper"
+git clone https://github.com/Nofearli/lsh-game-paper.git "$env:USERPROFILE\.agents\skills\lsh-game-paper"
 ```
 
 **Or use the bundled script** (from a checkout):
 
 ```bash
-bash ./install.sh              # macOS / Linux  -> ~/.agents/skills/game-paper
+bash ./install.sh              # macOS / Linux  -> ~/.agents/skills/lsh-game-paper
 powershell -ExecutionPolicy Bypass -File .\install.ps1   # Windows
 ```
 
-**Update later:** `cd ~/.agents/skills/game-paper && git pull`
+**Update later:** `cd ~/.agents/skills/lsh-game-paper && git pull`
 
 ## Quick check
 

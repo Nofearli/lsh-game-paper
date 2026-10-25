@@ -1,4 +1,4 @@
-# References and BibTeX — game-paper library
+# References and BibTeX — lsh-game-paper library
 
 All entries extracted verbatim from papers/PXXX.md Section 1. Entries flagged `to verify`
 have fields the source PDF does not print — resolve against the publisher before citing.

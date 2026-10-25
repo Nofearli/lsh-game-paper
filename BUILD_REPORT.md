@@ -1,4 +1,4 @@
-# game-paper Skill 建设报告
+# lsh-game-paper Skill 建设报告
 
 日期：2026-10-12 ｜ 构建方式：主线程调度 + 后台逐篇精读代理 + 领域综合代理
 

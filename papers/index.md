@@ -1,4 +1,4 @@
-# game-paper Literature Index
+# lsh-game-paper Literature Index
 
 Source: `D:\System\zhuomian\game-paper` -- 117 PDFs, 0 newly indexed.
 
