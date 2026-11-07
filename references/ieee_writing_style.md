@@ -154,18 +154,48 @@ acceptable; omitting the caveat is not (P037's asserted-but-deferred HJI claim i
 
 ## 5. Tense, voice, and person
 
+Scope this section before applying it. The bullets below are `[归纳·档案]`: they were induced
+from the 102 deep-read archives, whose T1 records are weighted toward theory-forward work
+(TAC-style geometric and viscosity-solution prose). Application venues behave differently, and
+the difference is measurable rather than a matter of taste.
+
 - **Present tense** for the paper's own actions and mathematical truth: "we construct", "we
   prove", "the value is the viscosity solution", "capture is guaranteed", "the barrier consists
-  of three arcs".
+  of three arcs". `[归纳·档案]`
 - **Present tense also for literature**: "Chen et al. formulate …", "Yan et al. construct …" —
   the archives' records of T1 prose consistently use the historic present for cited work; past
   tense is reserved for dated events ("was introduced at Allerton 2014", P022's background).
+  `[归纳·档案]` — but see the counter-evidence below before using this in an application paper.
 - **Mixed voice**: active "we" for choices and proofs; passive for mathematical facts and
   procedures ("is computed at every sampling step", "is obtained by"). First-person singular
-  does not occur; imperatives do not occur.
+  does not occur; imperatives do not occur. `[归纳·档案]`
 - "In this paper, we …" opens the contribution paragraph; "This paper" may open sentences
   elsewhere ("This paper is the journal-length, rigorous treatment…" is the archive's
-  paraphrase of P022's self-positioning move).
+  paraphrase of P022's self-positioning move). `[归纳·档案]`
+
+### 5.1 Counter-evidence from application venues `[实测·7篇]`
+
+`lsh-ieee-trans-style` re-measured the body prose of 7 papers in TCST / TIE / T-Mech / TAES /
+TII / TSMC:S (39,589 words, 1,265 prose sentences; 2 of them are reach-avoid papers already
+archived here). Three findings contradict the bullets above for this venue group:
+
+| Claim above | Measured in the 7-paper application corpus |
+|---|---|
+| active "we" for choices and proofs | `we` 4 and `our` 4 occurrences total (0.10 per 1k words); `We + verb` sentence leads: 2 of 1,265. Agency is carried instead by `one can` (84), `can be` (179), passive be+past participle (629) |
+| present tense for cited work | other work appears as past passive: `was/were proposed` 10 times, `In [n], …` 108 times, past participle + `in [n]` 15 times |
+| "In this paper, we …" opens contributions | the frame is `The main contributions of this paper are summarized as follows:` + `1) 2) 3)` (`as follows` 44, `1)` 63, `first,/second,/third,` 23), with the bullets themselves in the passive |
+
+Also measured, and not derivable from either rule set: a bracketed reference **never** acts as
+the clause subject in this corpus (0 occurrences) — `[12] proposes …` is the ML-venue habit, not
+the IEEE control-venue one; `the proposed X` never co-refers with a citation (0 occurrences), so
+it marks the paper's own object only; and connectors `to this end`, `in particular`,
+`it is worth noting` occur **0** times, while `then` / `therefore` / `however` carry the turns.
+
+**[归纳] Rule:** pick by venue, not by habit. Theory-forward TAC-lineage prose follows §5.
+Application-venue prose (TCST, TIE, T-Mech, TAES, TII, TSMC:S) follows §5.1, and should be
+checked mechanically with `lsh-ieee-trans-style/scripts/style_checker.py` before submission.
+When the two disagree, the archive-derived bullets describe what the archived papers did, not
+what a reviewer at an application venue will expect.
 
 ---
 
